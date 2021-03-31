@@ -1,4 +1,5 @@
 import { nanoid } from 'nanoid';
+// import PanelCollapse from 'react-bootstrap/lib/PanelCollapse';
 
 // HEAD DATA
 export const headData = {
@@ -18,9 +19,10 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
+  paragraphOne: 'Hello!',
+  paragraphTwo:
+    "I'm Emma Huang. I am 10 years old, and I take art classes so I can get better at drawing. I like to be a risktaker and help other people.",
+  paragraphThree: 'Please look at my art!',
   resume: '', // if no resume, the button will not show up
 };
 
